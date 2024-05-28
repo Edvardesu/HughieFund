@@ -1,5 +1,5 @@
 
-import Layout from "../components/layout";
+import Layout from "../components/layout.jsx";
 import { NavBar, Footer, Hero } from "@/Components";
 import { CrowdFundingProvider } from "../Context/CrowdFunding";
 import ProjectList from "@/Components/ProjectList";
