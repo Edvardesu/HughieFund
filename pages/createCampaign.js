@@ -1,4 +1,3 @@
-
 import Layout from "../Components/Layout.jsx";
 import { NavBar, Footer, Hero, CreateCampaignForm } from "@/Components";
 import { CrowdFundingProvider } from "../Context/CrowdFunding";
@@ -20,9 +19,5 @@ const CreateCampaign = () => {
 export default CreateCampaign;
 
 CreateCampaign.getLayout = function getLayout(page) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
-  );
+  return <Layout>{page}</Layout>;
 };
