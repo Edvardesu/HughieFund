@@ -1,4 +1,4 @@
-import Layout from "../Components/Layout";
+import Layout from "../Components/Layout.jsx";
 import { NavBar, Footer, InvestList } from "@/Components";
 import { CrowdFundingProvider } from "../Context/CrowdFunding";
 
